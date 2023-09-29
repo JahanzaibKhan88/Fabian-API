@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fabian.API", "Fabian.API\Fabian.API.csproj", "{F7032D1C-49F4-4E92-B471-8215F36B437A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fabian.Domain", "Fabian.Domain\Fabian.Domain.csproj", "{35AF20B7-4EAB-410E-B51A-6FEFA8FDFAAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fabian.Infrastructure", "Fabian.Infrastructure\Fabian.Infrastructure.csproj", "{1DDEFB76-F3CE-4739-969D-D70720E527FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fabian.Application", "Fabian.Application\Fabian.Application.csproj", "{74A8467B-A265-44D5-A23F-E016A3162BEC}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DCACD210-EC5C-4043-9458-4F5750E9619D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7032D1C-49F4-4E92-B471-8215F36B437A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7032D1C-49F4-4E92-B471-8215F36B437A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7032D1C-49F4-4E92-B471-8215F36B437A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7032D1C-49F4-4E92-B471-8215F36B437A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35AF20B7-4EAB-410E-B51A-6FEFA8FDFAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35AF20B7-4EAB-410E-B51A-6FEFA8FDFAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35AF20B7-4EAB-410E-B51A-6FEFA8FDFAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35AF20B7-4EAB-410E-B51A-6FEFA8FDFAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DDEFB76-F3CE-4739-969D-D70720E527FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DDEFB76-F3CE-4739-969D-D70720E527FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DDEFB76-F3CE-4739-969D-D70720E527FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DDEFB76-F3CE-4739-969D-D70720E527FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A8467B-A265-44D5-A23F-E016A3162BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A8467B-A265-44D5-A23F-E016A3162BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A8467B-A265-44D5-A23F-E016A3162BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A8467B-A265-44D5-A23F-E016A3162BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCACD210-EC5C-4043-9458-4F5750E9619D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCACD210-EC5C-4043-9458-4F5750E9619D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCACD210-EC5C-4043-9458-4F5750E9619D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCACD210-EC5C-4043-9458-4F5750E9619D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A9C7FE5-ACF3-4140-9E64-2F8619709E6A}
+	EndGlobalSection
+EndGlobal

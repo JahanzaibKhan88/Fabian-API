@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  fabian.api:
+    image: ${DOCKER_REGISTRY-}fabianapi
+    build:
+      context: .
+      dockerfile: Fabian.API/Dockerfile

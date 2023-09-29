@@ -1,0 +1,6 @@
+version: '3'
+services:
+  api:
+    image: your-api-image
+    ports:
+      - "80:80"
